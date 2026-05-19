@@ -93,6 +93,26 @@ border:2px solid #6c63ff;
 .card:hover {
   transform: translateY(-5px);
 }
+.contact{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  width:300px;
+  margin:30px auto;
+}
+.contact input,textarea{
+  padding:10px;
+  border-radius:5px;
+  border:1px solid grey;
+}
+.contact button{
+  padding:10px;
+  background-color:rgb(96, 96, 253);
+  color:white;
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+}
 footer {
   background-color: #6c63ff;
   color: white;
